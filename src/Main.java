@@ -16,5 +16,19 @@ public class Main {
         game1.publisher = "Xbox Games Studios";
 
         game1.describe();
+
+        System.out.println(" Here is a list of Indie Games! ");
+
+        IndieGames indieGame1  = new IndieGames();
+        indieGame1.title = "Minecraft";
+        indieGame1.sales = "200 Million Copies";
+        indieGame1.release = "2011";
+        indieGame1.developer = "Mojang";
+        indieGame1.publisher = "Mojang";
+
+        indieGame1.describe();
     }
 }
+
+
+
