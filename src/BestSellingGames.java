@@ -11,6 +11,6 @@ public class BestSellingGames {
     String publisher;
 
     void describe() {
-        System.out.println(" The game is called " + title + ". It ranked number " + rank + " and came out " + release + "." + " The company who made " + title + " are called " + developer);
+        System.out.println(" The game is called " + title + ". It ranked number " + rank + " and came out " + release + "." + " The company who made " + title + " are called "+ developer);
     }
 }

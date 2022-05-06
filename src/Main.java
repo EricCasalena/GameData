@@ -20,11 +20,11 @@ public class Main {
         System.out.println(" Here is a list of Indie Games! ");
 
         IndieGames indieGame1  = new IndieGames();
-        indieGame1.title = "Minecraft";
-        indieGame1.sales = "200 Million Copies";
+        indieGame1.title = "Terraria";
+        indieGame1.sales = "44000000";
         indieGame1.release = "2011";
-        indieGame1.developer = "Mojang";
-        indieGame1.publisher = "Mojang";
+        indieGame1.developer = "Re-Logic";
+        indieGame1.publisher = "Re-Logic, 505 Games";
 
         indieGame1.describe();
     }
