@@ -1,4 +1,4 @@
-public class IndieGames {
+public class IndieGames extends Games {
     String title;
     String sales;
     String release;
