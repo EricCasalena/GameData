@@ -1,8 +1,8 @@
 public class Games {
-    String title;
-    String release;
-    String developer ;
-    String publisher;
-    String platform;
+   private String title;
+   private String release;
+   private String developer ;
+   private String publisher;
+   private String platform;
 
 }
