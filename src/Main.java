@@ -24,7 +24,7 @@ public class Main {
         indieGame1.sales = "44000000";
         indieGame1.release = "2011";
         indieGame1.developer = "Re-Logic";
-        indieGame1.publisher = "Re-Logic, 505 Games";
+        indieGame1.publisher = "Re-Logic, 505 games";
 
         indieGame1.describe();
     }
