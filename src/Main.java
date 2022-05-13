@@ -3,32 +3,15 @@ public class Main {
 
         System.out.println("This is my game data");
 
-        BestSellingGames game1 = new BestSellingGames();
-        game1.rank = 1;
-        game1.title = "Minecraft";
-        game1.sales = 238000000l;
-        game1.series = "Minecraft";
-        game1.genre = "Sandbox, Survival";
-        game1.mode = "Single-player, multiplayer";
-        game1.platform = "Multiplatform";
-        game1.release = "November 18, 2011";
-        game1.developer = "Mojang Studios";
-        game1.publisher = "Xbox Games Studios";
-
-        game1.describe();
+        BestSellingGames game1 = new BestSellingGames("Minecraft","November 18, 2011","Mojang Studios","Xbox Games Studios","Multiplatform",1,238000000l, "Minecraft", "Sandbox, Survival", "Single-player, multiplayer");
+        System.out.println(game1);
 
         System.out.println(" Here is a list of Indie Games! ");
 
-        IndieGames indieGame1  = new IndieGames();
-        indieGame1.title = "Terraria";
-        indieGame1.sales = "44000000";
-        indieGame1.release = "2011";
-        indieGame1.developer = "Re-Logic";
-        indieGame1.publisher = "Re-Logic, 505 games";
-
-        indieGame1.describe();
+        IndieGames indieGame1  = new IndieGames("Terraria","2011","Re-Logic","Re-Logic, 505 games","Multiplatform","44000000");
+        System.out.println(indieGame1);
     }
-}
 
+}
 
 

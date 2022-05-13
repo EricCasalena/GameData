@@ -5,46 +5,56 @@ public class Games {
    private String publisher;
    private String platform;
 
-   //Getters and Setters
+   //Constructor
+
+    public Games(String title, String release, String developer, String publisher, String platform) {
+        this.title = title;
+        this.release = release;
+        this.developer = developer;
+        this.publisher = publisher;
+        this.platform = platform;
+    }
+
+    //Getters and Setters
 
 
-    public String getTitle() {
+    protected String getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
+    protected void setTitle(String title) {
         this.title = title;
     }
 
-    public String getRelease() {
+    protected String getRelease() {
         return release;
     }
 
-    public void setRelease(String release) {
+    protected void setRelease(String release) {
         this.release = release;
     }
 
-    public String getDeveloper() {
+    protected String getDeveloper() {
         return developer;
     }
 
-    public void setDeveloper(String developer) {
+    protected void setDeveloper(String developer) {
         this.developer = developer;
     }
 
-    public String getPublisher() {
+    protected String getPublisher() {
         return publisher;
     }
 
-    public void setPublisher(String publisher) {
+    protected void setPublisher(String publisher) {
         this.publisher = publisher;
     }
 
-    public String getPlatform() {
+    protected String getPlatform() {
         return platform;
     }
 
-    public void setPlatform(String platform) {
+    protected void setPlatform(String platform) {
         this.platform = platform;
     }
 }
