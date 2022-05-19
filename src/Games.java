@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+
 public class Games {
+    static private ArrayList<Games> allMyGames;
    private String title;
    private String release;
    private String developer ;
@@ -13,6 +16,10 @@ public class Games {
         this.developer = developer;
         this.publisher = publisher;
         this.platform = platform;
+        if (allMyGames == null) {
+            allMyGames = new ArrayList<Games>();
+        }
+        allMyGames.add(this);
     }
 
     //Getters and Setters
@@ -56,5 +63,8 @@ public class Games {
 
     protected void setPlatform(String platform) {
         this.platform = platform;
+
+        static void describeALL(Games)
+        }
     }
 }
