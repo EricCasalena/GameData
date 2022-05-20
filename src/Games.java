@@ -7,8 +7,9 @@ public class Games {
    private String developer ;
    private String publisher;
    private String platform;
+    private Object Games;
 
-   //Constructor
+    //Constructor
 
     public Games(String title, String release, String developer, String publisher, String platform) {
         this.title = title;
@@ -64,7 +65,9 @@ public class Games {
     protected void setPlatform(String platform) {
         this.platform = platform;
 
-        static void describeALL(Games)
-        }
+    }
+
+    static void describeALL() {
+        System.out.println(allMyGames);
     }
 }
