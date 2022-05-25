@@ -7,7 +7,6 @@ public class Games {
    private String developer ;
    private String publisher;
    private String platform;
-    private Object Games;
 
     //Constructor
 
@@ -16,7 +15,6 @@ public class Games {
         this.release = release;
         this.developer = developer;
         this.publisher = publisher;
-        this.platform = platform;
         if (allMyGames == null) {
             allMyGames = new ArrayList<Games>();
         }
